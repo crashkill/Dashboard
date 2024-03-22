@@ -1,3 +1,4 @@
+mkdir -p ~/.dataset/
 mkdir -p ~/.streamlit/
 
 echo "\
