@@ -4,7 +4,7 @@ import streamlit as st
 #from streamlit_lottie import st_lottie
 import json
 
-st.set_page_config(page_title="Dashboard de Vendas",
+st.set_page_config(page_title="Dashboard da Vanessa",
                    page_icon=":bar_chart:",
                    layout="wide")
 
