@@ -11,7 +11,7 @@ st.set_page_config(page_title="Dashboard de Vendas",
 @st.cache_data
 def get_data_from_excel():
     df = pd.read_excel(
-        io='dataset\supermarkt_sales.xlsx',
+        io='supermarkt_sales.xlsx',
         engine='openpyxl',
         sheet_name='Sales',
         skiprows=3,
