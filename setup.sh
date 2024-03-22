@@ -1,4 +1,5 @@
-mkdir -p ~/.dataset/
+rmdir -p ~/.dataset/
+mkdir -p ~/dataset/
 mkdir -p ~/.streamlit/
 
 echo "\
