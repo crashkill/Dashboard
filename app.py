@@ -4,7 +4,7 @@ import streamlit as st
 #from streamlit_lottie import st_lottie
 import json
 
-st.set_page_config(page_title="Dashboard de Vendas",
+st.set_page_config(page_title="Dashboard Financeiro - Operações SP & CP",
                    page_icon=":bar_chart:",
                    layout="wide")
 
@@ -75,7 +75,7 @@ df_selection = df.query(
 #st_lottie(lotie_animatio_url, key="user")
 
 # ----- Criando a página de gráficos
-st.title(":bar_chart: Dashboard da Vanessa")
+st.title(":bar_chart: Dashboard Financeiro - Operações SP & CP")
 st.markdown("##")
 
 # ---- Criando o topo do site
