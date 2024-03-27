@@ -7,8 +7,10 @@ st.set_page_config(page_title="Dashboard Financeiro - Operações SP & CP",
                    page_icon=":bar_chart:",
                    layout="wide")
 
-__login__obj = __login__(auth_token = "courier_auth_token", 
-                    company_name = "Shims",
+courier = "dk_prod_15MR4DTDW746NSM1KSVECXS5J5J7"
+
+__login__obj = __login__(auth_token = courier, 
+                    company_name = "Operações Globalhitss",
                     width = 200, height = 250, 
                     logout_button_name = 'Logout',
                     hide_menu_bool = False, 
